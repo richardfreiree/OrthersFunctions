@@ -1,5 +1,5 @@
 <?php 
 
-echo "Eu sou o body";
-
+echo "Eu sou o body</br>";
+echo "</hr>";
  ?>

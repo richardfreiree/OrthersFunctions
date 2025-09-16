@@ -1,5 +1,5 @@
 <?php 	
 
-echo "Eu sou o footer";
-
+echo "Eu sou o footer</br>";
+echo "</hr>";
  ?>
