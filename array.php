@@ -28,5 +28,17 @@ echo ("<pre>");
 print_r($email[1]);
 echo ("</br>");
 echo ("<pre>");
-var_dump($email[1]);
+var_dump($email[1]);	
+
+ 
+  $num = array(1,2,3,4,5,6,7);
+  for($i=0;$i<6;$i++){
+  	$num[$i] = 12;
+
+  }
+
+  for($i=0;$i<8;$i++){
+  	echo "O valor do vetor: " . $num[$i];
+
+  }
  ?>
