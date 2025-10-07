@@ -4,7 +4,7 @@ $neg = 0;
 $pos = 0;
 $pares = 0;
 $impar = 0;
-for($i=0;$i<9;$i++){
+for($i=0;$i<10;$i++){
 	if($num[$i] < 0){
 	$neg++;
 	} else{
@@ -13,8 +13,9 @@ for($i=0;$i<9;$i++){
 	if($num[$i] % 2 == 0){
 		$pares++;
 	} else{
-		$neg++;
+		$impar++;
 	};
 };
 
+echo "São $neg números negativos </br> São $pos números positivos </br> São $pares números pares </br> São $impar números ímpares";
  ?>
