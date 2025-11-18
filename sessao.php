@@ -1,5 +1,5 @@
 
-
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,8 +10,8 @@
 <body>
 <?php 
 
-if (isset($_COOKIE['usuario'])){
-	echo "Bem vindo ". $_COOKIE['usuario'] . "! <br>";
+if (isset($_COOKIE['Ocupacao'])){
+	echo "Bem vindo ". $_COOKIE['Ocupacao'] . "! <br>";
 }
 else{
 	echo "Usuário novo, seja bem vindo! <br>";
