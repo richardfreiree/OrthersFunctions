@@ -15,10 +15,11 @@
 		<label for="corinthians">Corinthians</label>
 
 
-
+			<div class="palmeiras">
 				<input type="radio" id="palmeiras" name="time" value="palmeiras"></input>
 		<label for="Palmeiras">Palmeiras</label>
-
+		<img src="img/palmeiras.png">
+		</div>
 
 				<input type="radio" id="paulo" name="time" value="paulo"></input>
 		<label for="paulo">São Paulo</label>
