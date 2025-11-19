@@ -1,18 +1,20 @@
 <?php 
+session_start();
 
-$voto = $_GET['voto'];
 
-if(!isset($_COOKIE['voto'])){
+$voto = $_GET['time'];
 
-	setcookie("voto", $voto.time()+3600*24*31);
+if(!isset($_COOKIE['time'])){
 
-	$msg = "Obrigado por votar!!!"
-}
-else{
+	setcookie("time", $voto.time()+3600*24*31);
+
+	$msg = "Obrigado por votar!!!";
+}else{
 
 	$msg = "Você já votou uma vez.";
-}
+};
 
 echo $msg;
+
 
  ?>

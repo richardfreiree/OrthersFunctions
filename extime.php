@@ -4,17 +4,36 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Escolha de Time</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 	<h1>Escolha o melhor time do Mundo</h1>
-		<form method="post" action=".php">
-	<select id="times" name="times" size="4" multiple>
-  	<option value="Corinthians">Corinthians</option>
-  	<option value="Boca">Boca Juniors</option>
- 	<option value="River">River Plate</option>
- 	<option value="Bragantino">Bragantino</option>
-</select>
+		<form method="get" action="extime2.php">
+		<div class="escolha">
+		<input type="radio" id="corinthians" name="time" value="corinthians"></input>
+		<label for="corinthians">Corinthians</label>
+
+
+
+				<input type="radio" id="palmeiras" name="time" value="palmeiras"></input>
+		<label for="Palmeiras">Palmeiras</label>
+
+
+				<input type="radio" id="paulo" name="time" value="paulo"></input>
+		<label for="paulo">São Paulo</label>
+
+
+				<input type="radio" id="boca" name="time" value="boca"></input>
+		<label for="boca">Boca Juniors</label>
+
+				<input type="radio" id="river" name="time" value="river"></input>
+				<div/>
+		<label for="river">River Plate</label>
+		<br>
+		<br>
+		<button type="submit">Enviar</button>
+		<br>
 	</form>
 
 
