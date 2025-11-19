@@ -28,7 +28,14 @@ button{
 	flex-direction: column;
 }
 
-img{
+.corinthians{
+	display: flex;
+	flex-direction: column;
+}
+.corinthians img{
+	width: 80px;
+}
+.palmeiras img{
 	width: 100px;
 }
 
