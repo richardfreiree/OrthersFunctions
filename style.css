@@ -7,7 +7,7 @@ h1{
 .escolha{
 	justify-content: center;
 	display: flex;
-	gap: 10px; 
+	gap: 30px; 
 }
 
 label{
@@ -31,9 +31,30 @@ button{
 .corinthians{
 	display: flex;
 	flex-direction: column;
+
+}
+
+.saopaulo{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.boca{
+	display: flex;
+	flex-direction: column;
+
 }
 .corinthians img{
 	width: 80px;
+}
+
+.boca img{
+	width: 100px;
+}
+
+.saopaulo img{
+	width: 100px;
 }
 .palmeiras img{
 	width: 100px;

@@ -29,12 +29,14 @@
 
 
 			<div class="saopaulo">
+				<img src="img/sao paulo.png">
 				<input type="radio" id="paulo" name="time" value="paulo"></input>
 		<label for="paulo">São Paulo</label>
 		</div>
 
 
 		<div class="boca">
+							<img src="img/boca juniors.png">
 				<input type="radio" id="boca" name="time" value="boca"></input>
 		<label for="boca">Boca Juniors</label>
 			</div>
