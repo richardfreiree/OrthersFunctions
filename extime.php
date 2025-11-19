@@ -16,9 +16,10 @@
 
 
 			<div class="palmeiras">
+						<img src="img/palmeiras.png">
 				<input type="radio" id="palmeiras" name="time" value="palmeiras"></input>
 		<label for="Palmeiras">Palmeiras</label>
-		<img src="img/palmeiras.png">
+
 		</div>
 
 				<input type="radio" id="paulo" name="time" value="paulo"></input>
